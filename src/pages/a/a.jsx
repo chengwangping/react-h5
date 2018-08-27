@@ -6,7 +6,7 @@ import {Home} from '../../axios/sever'
 class A extends React.Component {
   componentWillMount () {
     Home().then((data) => {
-      console.log(data, 111)
+      console.log(data, 333)
     })
   }
   render () {

@@ -11,9 +11,6 @@ import './utils/setRem'
 FastClick.attach(document.body)
 
 const render = Component => {
-  // mock
-  require('./mock/index')
-
   ReactDOM.render(
     // 绑定redux、热加载
     <Provider store={store}>

@@ -1,4 +1,4 @@
-import Http from './http'
+import Http from './mockHttp'
 import * as Api from './type'
 // get 公共方法
 export const ajaxGet = (url, options) => {
@@ -10,5 +10,5 @@ export const ajaxPost = (url, options) => {
 }
 // 获取
 export const Home = (options) => {
-  return Http.post(Api.HOME, options)
+  return Http.get(Api.HOME, options)
 }

@@ -1,1 +1,1 @@
-export const HOME = '/user'
+export const HOME = '/users'
